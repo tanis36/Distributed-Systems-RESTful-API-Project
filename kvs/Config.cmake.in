@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+set(libname KVSlibrary)
+
+include("${CMAKE_CURRENT_LIST_DIR}/${libname}Targets.cmake")
+
+check_required_components(${libname})
